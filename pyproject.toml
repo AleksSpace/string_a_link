@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "string_a_link"
+version = "0.1.0"
+description = ""
+authors = ["Алексей <Zaikin.lescha@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+pytest = "^7.2.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
